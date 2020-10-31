@@ -1,5 +1,5 @@
 const express = require('express');
-const http = require('http')
+const http = require('http');
 const socketio = require('socket.io');
 
 const app = express();
@@ -8,9 +8,9 @@ app.use(express.static(`${__dirname}/client/build`));
 const server = http.createServer(app);
 const io = socketio(server);
 
-io.on('connection', socket => {
-    console.log('New WS connection');
-})
+io.on('connection', (socket) => {
+  console.log('New WS connection');
+});
 
 const PORT = process.env.PORT || 8000;
 
