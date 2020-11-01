@@ -1,0 +1,55 @@
+.hero-container {
+  margin-top: 6rem !important;
+  padding: 0 16px;
+}
+
+.hero__welcome__text,
+.hero__description__text {
+  text-align: center;
+  color: rgb(1, 41, 46, 1);
+  font-weight: 600;
+}
+
+.hero__welcome__text {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero__description__text {
+  font-size: 1.8rem;
+  line-height: 1.35;
+  margin-bottom: 2rem;
+}
+
+.hero__action__text {
+  color: #202124;
+  font-size: 1.6rem;
+  text-align: center;
+  max-width: 14rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 576px) {
+  .hero__welcome__text {
+    font-size: 3.7rem;
+  }
+
+  .hero__action__text {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero__welcome__text {
+    font-size: 4.8rem;
+  }
+
+  .hero__description__text {
+    font-size: 2.8rem;
+  }
+
+  .hero__action__text {
+    font-size: 2rem;
+  }
+}
