@@ -1,0 +1,56 @@
+.home__btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__create-btn,
+.home__join-btn {
+  display: block;
+  width: 10rem;
+  padding: 15px 24px;
+  font-weight: 500;
+  border: 0;
+  outline: none;
+  border-radius: 24px;
+  cursor: pointer;
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+}
+
+.home__create-btn {
+  background-color: rgb(2, 202, 202);
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.home__join-btn {
+  background-color: #fff;
+  color: rgb(2, 202, 202);
+}
+
+.home__create-btn:hover,
+.home__create-btn:focus,
+.home__join-btn:hover,
+.home__join-btn:focus {
+  box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.3), 0 4px 8px 3px rgba(60, 64, 67, 0.15);
+}
+
+.video__icon,
+.friends__icon {
+  margin-right: 1rem;
+}
+
+@media (min-width: 576px) {
+  .home__btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home__create-btn {
+    margin-bottom: 0;
+    margin-right: 1rem;
+  }
+}

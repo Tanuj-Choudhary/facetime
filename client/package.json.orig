@@ -36,8 +36,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+<<<<<<< HEAD
+  "devDependencies": {}
+=======
   "devDependencies": {
     "eslint-plugin-prettier": "^3.1.4",
     "prettier": "^2.1.2"
   }
+>>>>>>> cab23532e01e69d81bdc7ad5cb923acd3e068dc8
 }
