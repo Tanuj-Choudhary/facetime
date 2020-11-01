@@ -1,0 +1,37 @@
+.header__wrapper {
+  width: 100%;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1), 0 4px 24px rgba(0, 0, 0, 0.06);
+}
+
+.header {
+  display: flex;
+  max-width: 992px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+}
+
+.header__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__brand__image__wrapper {
+  border: 2px solid rgb(2, 202, 202);
+  border-radius: 50%;
+  background-color: rgb(2, 202, 202);
+}
+
+.header__brand__image {
+  font-size: 1.5rem;
+  color: white;
+  padding: 6px;
+}
+
+.header__brand__name {
+  margin-left: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
