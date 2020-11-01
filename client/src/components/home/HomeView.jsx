@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Header from '../header';
+import Header from '../../views/header';
 import './homeView.css';
 
 function HomeView() {
