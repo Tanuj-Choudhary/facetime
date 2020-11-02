@@ -1,6 +1,7 @@
 .callBox {
   max-width: 992px;
   margin: 0 auto;
+  margin-bottom: 2rem;
   padding: 0 16px;
   display: flex;
   justify-content: center;
@@ -38,4 +39,16 @@
   background-color: #ffda68;
   color: #1f292e;
   border-radius: 0.25rem;
+}
+
+.callbox__text {
+  max-width: 992px;
+  padding: 0 16px;
+  text-align: center;
+  color: rgb(126, 134, 136);
+  line-height: 1.55;
+}
+
+.callbox__text > span {
+  font-weight: 600;
 }
