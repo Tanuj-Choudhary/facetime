@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../../views/footer';
 
 import Header from '../../views/header';
 import Hero from '../../views/hero';
@@ -33,6 +34,7 @@ function HomeView({ handleClick, buttonClicked }) {
       <Header />
       <Hero />
       {renderHelper()}
+      <Footer />
     </div>
   );
 }
