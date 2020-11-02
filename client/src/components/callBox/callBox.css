@@ -43,6 +43,7 @@
 
 .callbox__text {
   max-width: 992px;
+  margin: 0 auto;
   padding: 0 16px;
   text-align: center;
   color: rgb(126, 134, 136);
