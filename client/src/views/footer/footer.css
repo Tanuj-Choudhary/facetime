@@ -6,6 +6,11 @@
   padding: 3rem 1rem;
 }
 
+.footer__content {
+  max-width: 992px;
+  margin: 0 auto;
+}
+
 .footer__info {
   margin-bottom: 16px;
 }
