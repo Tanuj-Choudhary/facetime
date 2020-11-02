@@ -1,0 +1,11 @@
+.footer {
+  margin-top: 6rem;
+  background-color: #192124;
+  text-align: center;
+  color: #78909c;
+  padding: 3rem 1rem;
+}
+
+.footer__info {
+  margin-bottom: 16px;
+}
