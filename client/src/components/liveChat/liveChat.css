@@ -1,0 +1,98 @@
+.chat__page {
+  padding: 15px;
+  max-width: 992px;
+  margin: 0 auto;
+}
+
+.my__id {
+  margin: 1rem 0;
+  font-size: 2rem;
+  height: 100px;
+}
+
+.my__id > span {
+  font-size: 2rem;
+}
+
+.videoboxes {
+  display: flex;
+  flex-direction: column;
+}
+
+.videobox {
+  display: flex;
+}
+
+.videobox__user {
+  margin-top: 0.5rem;
+  justify-content: flex-end;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 250px);
+  width: 100%;
+}
+
+.call__modal__heading {
+}
+
+.call__modal__btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.call__modal__btns__icon {
+  margin-right: 1rem;
+}
+
+.accept-btn,
+.reject-btn {
+  display: block;
+  margin-top: 1rem;
+  padding: 15px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  width: 10rem;
+  cursor: pointer;
+}
+
+.accept-btn {
+  background: #44cc44;
+  box-shadow: 0 4px 0 0 #2ea62e;
+}
+
+.accept-btn:hover {
+  background: #6fe76f;
+  box-shadow: 0 4px 0 0 #7ed37e;
+}
+
+.reject-btn {
+  background: tomato;
+  box-shadow: 0 4px 0 0 #cb4949;
+}
+
+.reject-btn:hover {
+  background: rgb(255, 147, 128);
+  box-shadow: 0 4px 0 0 #ef8282;
+}
+
+.loading__text {
+  margin-top: 1rem;
+  text-align: center;
+  color: #02caca;
+}
+
+@media (min-width: 400px) {
+  .video__partner {
+    width: 100%;
+    height: 100%;
+  }
+}
