@@ -34,7 +34,7 @@ function LiveChatContainer(props) {
   useEffect(() => {
     // Only run if not connected
     if (!socket.current) {
-      socket.current = io.connect('http://localhost:8000');
+      socket.current = io.connect('/');
 
       socket.current.on('yourID', (yourid) => {
         setYourID(yourid);
