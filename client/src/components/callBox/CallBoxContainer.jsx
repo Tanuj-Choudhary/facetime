@@ -20,7 +20,7 @@ function CallBoxContainer() {
     }
 
     // Valid ID Go to rooms/:id
-    history.push(`rooms/${friendID}`);
+    history.push({ pathname: '/rooms', search: `?id=${friendID}` });
   };
 
   // Controlling input

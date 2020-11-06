@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
-import { v4 as uuidv4 } from 'uuid';
 
 import HomeView from './HomeView';
 
 function HomeContainer() {
   const [buttonClicked, setbuttonClicked] = useState(null);
-  const roomID = uuidv4();
+
   const history = useHistory();
 
   const handleClick = (e) => {
@@ -14,7 +13,7 @@ function HomeContainer() {
 
     // Start button clicked
     if (id === 'start') {
-      history.push(`rooms/${roomID}`);
+      history.push(`rooms`);
     }
 
     // Join button clicked
