@@ -84,6 +84,7 @@ function LiveChatView({
               controls
               width="100"
               height="100"
+              muted
             >
               Sorry, your browser doesn't support embedded videos.
             </video>
